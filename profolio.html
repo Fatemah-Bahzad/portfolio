@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <meta name="referrer" content="origin">
+        <!-- force Internet Explorer (IE) to use the latest version of the rendering engin -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- his gives the browser instructions on how to control the page's dimensions and scaling -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Fatemah Bahzad Portfolio</title>
+
+
+
+
+        <!-- defines the web page icon or favicon which visually represents the website -->
+        <link rel="shortcut icon" href="./pics/icon.png" type="image/x-icon">
+        
+        <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <!-- might take it out  -->
+
+
+        <link rel="stylesheet" href="./css/style.css">
+
+
+        <!--google font link-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+        <script src="./js/script.js" defer ></script>
+        <script src="https://kit.fontawesome.com/582cc60b88.js" crossorigin="anonymous"></script>
+      </head>
+      <body>
+        
+        <main>
+          <!-- side bare -->
+          <aside class="sidebar" info-sidebar>
+            <div class="sidebare-info">
+              <figure class="avatar-box">
+                <!-- change the pic  -->
+                <img src="./pics/avatar2.png" alt="Fatemah Bahzad" width="80"> 
+              </figure>
+
+              <div class="info-contact">
+                <h1 class="name" title="Fatemah Bahzad"> Fatemah Bahzad</h1>
+                <div class="separator"></div>
+                <p class="title">Computer Engineer</p>
+              </div>
+
+              <button class="info_more-btn" info-btn>
+                <span>Show Contacts</span>
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+            </div>
+            <div class="sidebar-info_more">
+              
+
+              <!-- ul used for a list with <li> the list elements -->
+              <ul class="contact-list">
+                <li class="contact-item"> 
+                <div class="icon-box">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-title">Email</p>
+                  <a href="mailto: zahraabahzad3@gmail.com" class="contact-link">zahraabahzad3@gmail.com</a>
+                </div>
+                </li>
+                <li class="contact-item">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="contact-info">
+                    <p class="contact-title"> Phone Number</p>
+                    <a href="tel:+15712750202" class="contact-link">+1(571)275-0202</a>
+                  </div>
+                </li>
+                <li class="contact-item">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-location-arrow"></i>
+                  </div>
+                  <div class="contact-info">
+                    <p class="contact-title">Location</p>
+                    <address>Fairfax, Virginia, USA </address>
+                  </div>
+                </li>
+              </ul>
+              <div class="separator"></div>
+              <ul class="social-list">
+                <li class="social-item">
+                  <a href="https://www.linkedin.com/in/fatemah-bahzad/" class="social-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a href="https://github.com/Fatemah-Bahzad" class="social-link">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+
+          <!-- main page -->
+          <div class="main-content">
+            <!-- nav bar -->
+            <nav class="navbar">
+              <ul class="navbar-list">
+                <li class="navbar-item">
+                  <button class="navbar-link  active" data-nav-link>About</button>
+                </li>
+                <li class="navbar-item">
+                  <button class="navbar-link" data-nav-link>Resume</button>
+                </li>
+                <li class="navbar-item">
+                  <button class="navbar-link" data-nav-link>Portfolio</button>
+                </li>
+                <!-- <li class="navbar-item">
+                  <button class="navbar-link" data-nav-link>Updates</button>
+                </li> -->
+                <!-- add it later -->
+                <li class="navbar-item">
+                  <button class="navbar-link" data-nav-link>Contact</button>
+                </li>
+              </ul>
+            </nav>
+
+
+            <!-- about page -->
+            <article class="about active" data-page="about">
+              <header>
+                <h2 class="h2 artical-title"> About me</h2>
+              </header>
+              <section class="about-text">
+                <div class="slideshow-container">
+
+              <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <div class="text">
+                    <p class="about-me-title">About Me: Aspiring Computer Engineer and Web Developer</p>
+                    <p class="about-me-item">
+                  Hello there! I'm thrilled to welcome you to my portfolio. 
+                  I'm Fatemah, a recent Computer Engineering graduate from George Mason 
+                  University with a burning passion for coding and an insatiable appetite for 
+                  learning. I believe in the power of technology to shape our world and solve 
+                  complex challenges, and I'm excited to share my journey with you.
+                </p>
+              </div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <div class="text">
+                <p class="about-me-title">Educational Journey:</p>
+                <p class="about-me-item">
+                  My academic journey at George Mason University has been a transformative experience.
+                   I've had the privilege of diving deep into the fascinating world of computer engineering,
+                    where I've gained a solid foundation in both hardware and software aspects of computing. 
+                    From digital circuits and microprocessors to algorithms and data structures, I've relished 
+                    every opportunity to expand my knowledge and apply it to real-world problems.
+                </p>
+                </div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <div class="text">
+                <p class="about-me-title">Passion for Coding:</p>
+                <p class="about-me-item">
+                  Coding isn't just a skill for me; it's a way of expressing creativity and bringing ideas to
+                   life. I've spent countless hours immersing myself in various programming languages, from
+                    C++ and Python to Java and JavaScript. Each line of code I write is a step towards 
+                    creating solutions that make a difference. The excitement of seeing my code come to
+                     life and function as intended is what keeps me motivated and hungry for more challenges.
+                </p>
+                </div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <div class="text">
+                <p class="about-me-title">Web Development Journey:</p>
+                <p class="about-me-item">
+                  One of my current endeavors is delving into the realm of web development. The digital landscape 
+                  is continuously evolving, and the web is at the heart of this evolution. I'm actively learning 
+                  and honing my skills in HTML, CSS, JavaScript, and related technologies to craft engaging and user-centric
+                   web experiences. I believe that the fusion of my engineering background and web development skills will enable
+                    me to build innovative and efficient solutions that seamlessly integrate technology into our daily lives. 
+                </p>
+                </div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                    <div class="text">
+                <p class="about-me-title" >Career Aspirations:</p>
+                <p class="about-me-item">
+                  As I stand at the threshold of my career, I'm eagerly anticipating the opportunity to contribute my 
+                  skills and knowledge to the tech industry. I'm on the lookout for an environment that fosters growth, 
+                  encourages innovation, and challenges me to push my boundaries. Whether it's developing cutting-edge software, 
+                  optimizing hardware systems, or architecting user-friendly websites, I'm ready to take on challenges that inspire
+                  me and add value to the world.
+                </p>
+                </div>
+              </div>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+              </section>
+            </article>
+
+            <!-- resume -->
+            <article class="resume" data-page="resume">
+              <header>
+                <h2 class="h2 artical-title">Resume</h2>
+              </header>
+              <section class="timeline">
+                <div class="title-wrapper">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-book"></i>
+                  </div>
+                  <h3 class="h3">Education</h3>
+                </div>
+
+                <ul class="timeline-list">
+                  <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">George Mason University: Computer Engineering </h4>
+                    <span>2018-2023</span>
+                  </li>
+                </ul>
+              </section>
+              <section class="timeline">
+                <div class="title-wrapper">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-desktop"></i>
+                  </div>
+                  <h3 class="h3">Professional Certificate</h3>
+                </div>
+                <ul class="timeline-list">
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">IBM Back-End Development Professional Certificate </h4>
+                  <span>July/2023-Present</span>
+                </li>
+              </ul>
+
+              </section>
+
+              <section class="timeline">
+                <div class="title-wrapper">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-briefcase"></i>
+                  </div>
+                  <h3 class="h3">Experience</h3>
+                </div>
+                <ul class="timeline-list">
+                  <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Group Senior Design Project - Celestial Objects Tracking System </h4>
+                    <span>2022-2023</span>
+                    <ul class="timeline-exp">
+                      <li class="exp-item">
+                        Designed and developed user-friendly celestial objects tracking system for on campus 9-meter dish, 
+                        using Python and NASA's online database for precise celestial object positioning.
+                      </li>
+                      <li class="exp-item">
+                        Tested and troubleshooted the system on a prototype of the dish, which was designed using CAD and 
+                        all the required PCB wiring and component integration was successfully accomplished to confirm the functionality of the system.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Private Tutor, technical</h4>
+                    <span>2021-Present</span>
+                    <ul class="timeline-exp">
+                      <li class="exp-item">
+                        Coached students through challenging material with positive reinforcement and encouragement.
+                      </li>
+                      <li class="exp-item">
+                        Tested, Troubleshot, and resolved problems with programs and systems.
+                      </li>
+                      <li class="exp-item">
+                        Developed work teams and delegated tasks according to student strengths.
+                      </li>
+
+                    </ul>
+
+                  </li>
+                </ul>
+              </section>
+              <section class="skill">
+                <h3 class="h3 skills-title">My skills</h3>
+                <div class="container">
+                  <div class="item">
+                    <div class="item-content">
+                      <h4 class="h4 item-text">Back-End</h4>
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-brands fa-python"></i>
+                        </div>
+                        <h5 class="icon-title">Python</h5>
+                        <!-- <h5 class="icon-title">2 Years</h5> -->
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-brands fa-java"></i>
+                        </div>
+                        <h5 class="icon-title">Java</h5>
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-solid fa-c"></i>
+                        </div>
+                        <h5 class="icon-title">C#</h5>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container">
+                  <div class="item">
+                    <div class="item-content">
+                    <h4 class="h4 item-text">Front-End </h4>
+                    <div class="item-inner">
+                      <div class="item-icon">
+                        <i class="fa-brands fa-html5"> </i>
+                        </div>
+                        <h5 class="icon-title"> HTML5</h5>
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-brands fa-css3-alt"></i>
+                          </div>
+                          <h5 class="icon-title">CSS</h5>
+                        </div>
+                        <div class="item-inner">
+                          <div class="item-icon">
+                            <i class="fa-brands fa-square-js"></i>
+                            </div>
+                            <h5 class="icon-title">JavaScript</h5>
+                          </div>
+
+                          <div class="item-inner">
+                            <div class="item-icon">
+                              <i class="fa-brands fa-php"></i>
+                              </div>
+                              <h5 class="icon-title">PHP</h5>
+                            </div>
+                    </div>
+                  </div>
+                  </div>
+                <div clas="container">
+                  <div class="item">
+                    <div class="item-content">
+                      <h4 class="h4 item-text">Software Programming</h4>
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-solid fa-v"></i>
+                        </div>
+                        <h5 class="icon-title">VHDL</h5>
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-brands fa-linux"></i>
+                        </div>
+                        <h5 class="icon-title">linux</h5>
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <h5 class="icon-title">Networking Protocols</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <div class="container">
+                    <div class="item">
+                      <div class="item-content">
+                        <h4 class="h4 item-text">Hardware</h4>
+                        <div class="item-inner">
+                          <div class="item-icon">
+                            <i class="fa-solid fa-microchip"></i>
+                          </div>
+                          <h5 class="icon-title">MSP430</h5>
+                        </div>
+                        <div class="item-inner">
+                          <div class="item-icon">
+                            <i class="fa-brands fa-raspberry-pi"></i>
+                          </div>
+                          <h5 class="icon-title"> Raspberry_Pi</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item-content">
+                      <h4 class="h4 item-text">Other</h4>
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-brands fa-github"></i>
+                        </div>
+                        <h5 class="icon-title">Github</h5>
+                      </div>
+
+                    </div>
+                  </div>
+                 
+              </section>
+            </article>
+          
+            <article class="portfolio" data-page="portfolio">
+              <header>
+                <h2 class="h2 artical-title">Portfolio</h2>
+              </header>
+              <section claass="projects">
+                <ul class="filter-list">
+                  <li class="filter-item">
+                    <button class="active" data-filter-btn>All</button>
+                  </li>
+                  <li class="filter-item">
+                    <button data-filter-btn> Embedded Systems </button>
+                  </li>
+                  <li class="filter-item">
+                    <button data-filter-btn> Web development and design </button>
+                  </li>
+                  <li class="filter-item">
+                    <button data-filter-btn> Applications </button>
+                  </li>
+                </ul>
+                <div class="filter-select-box">
+                  <button class="filter-select" data-select>
+                    <div class="select-value" data-selecct-value>Select category</div>
+
+                    <div class="select-icon">
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                  </button>
+
+                  <ul class="select-list">
+
+                    <li class="select-item">
+                      <button data-select-item>All</button>
+                    </li>
+      
+                    <li class="select-item">
+                      <button data-select-item>Embedded Systems</button>
+                    </li>
+      
+                    <li class="select-item">
+                      <button data-select-item>Web development and design</button>
+                    </li>
+      
+                    <li class="select-item">
+                      <button data-select-item>Applications</button>
+                    </li>
+                  </ul>
+                </div>
+                <ul class="project-list">
+                  <li class="project-item active" data-filter-item data-category="web development and design">
+                    <a href="https://fatemah-bahzad.github.io/calculator-using-js-html-and-css-/">
+                      <figure class="project-img">
+                        <div class="project-item-icon-box">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <img src="./projects/project1.png" alt="beginner" loading="lazy">
+                      </figure>
+                      <h3 class="project-title">Calculater</h3>
+                      <p class="project-category">Web development and design</p>
+                    </a>
+                  </li>
+                </ul>
+              </section>
+            </article>
+
+            <article class="contact" data-page="contact">
+              <header>
+                <h2 class="h2 article-title">Contact</h2>
+              </header>
+      
+              <section class="mapbox" data-mapbox>
+                <figure>
+                  <iframe src="https://storage.googleapis.com/maps-solutions-v1dcsj204d/locator-plus/4f9s/locator-plus.html"
+                    width="100%" height="100%"
+                    style="border:0;"
+                    loading="lazy">
+                  </iframe>
+              </section>
+      
+              <section class="contact-form">
+      
+                <h3 class="h3 form-title">Contact Form</h3>
+      
+                <form action="https://formsubmit.co/zahraabahzad3@gmail.com" method="POST" class="form" data-form>
+      
+                  <div class="input-wrapper">
+                    <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+      
+                    <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                  </div>
+      
+                  <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+      
+                  <button class="form-btn" type="submit" disabled data-form-btn>
+                    <ion-icon name="paper-plane"></ion-icon>
+                    <span>Send Message</span>
+                  </button>
+      
+                </form>
+      
+              </section>
+      
+            </article>
+          </div>
+        </main>
+        
+      </body>
+
+</html>
+
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Write something about yourself here.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Description of project 1.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Description of project 2.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>  -->
