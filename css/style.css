@@ -127,7 +127,7 @@ a { text-decoration: none; }
 
 li { list-style: none; }
 
-img, i, a, button, time { display: block; }
+img, i,  button, time { display: block; }
 
 img{
   margin-left: auto;
@@ -142,7 +142,8 @@ button {
   text-align: left;
   cursor: pointer;
   display:flex;
-  font-size: 8px;
+  font-size: 15px;
+  color:white;
 }
 /* .align-right{
   align: right;
@@ -471,7 +472,7 @@ main {
 
 
 /* ----------------------------- *\
-about bage slides 
+about slides 
 \* ---------------------------- */
 
 * {box-sizing:border-box}
@@ -484,6 +485,9 @@ about bage slides
   position: relative;
   margin: auto;
   
+}
+.about .active{
+  background-color: var(--orange-yellow-crayola);
 }
 
 /* Hide the images by default */
@@ -522,7 +526,7 @@ about bage slides
 .about-me-title{
   position: relative ;
   font-size: 200%;
-  color: #000000;
+  color:  var(--orange-yellow-crayola);
   
 
 }
@@ -540,8 +544,9 @@ about bage slides
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
-  position: relative;
-  top: 0;
+  position: absolute;
+  right:0;
+  bottom: 0;
 }
 
 /* The dots/bullets/indicators */
@@ -553,23 +558,26 @@ about bage slides
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: 0.6s ease;
 }
 
-.active, .dot:hover {
+.dot:hover{
+  background-color: #616060;
+}
+.active {
   background-color: #717171;
 }
 
 /* Fading animation */
-.fade {
+/* .fade {
   animation-name: fade;
   animation-duration: 1.5s;
-}
+} */
 
-@keyframes fade {
+/* @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
+} */
 /*-----------------------------------*\
   #NAVBAR
 \*-----------------------------------*/
@@ -755,7 +763,7 @@ about bage slides
   vertical-align: middle;
   display: table-cell;
   max-width: 100%;
-  font-size: 80px;
+  font-size: 60px;
   height: auto;
   /* margin-left: 4%;
   font-size: 50px;
