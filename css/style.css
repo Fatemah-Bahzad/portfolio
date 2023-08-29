@@ -525,14 +525,14 @@ about slides
 
 .about-me-title{
   position: relative ;
-  font-size: 200%;
+  font-size: 150%;
   color:  var(--orange-yellow-crayola);
   
 
 }
 .about-me-item{
   position: relative;
-  font-size: 150%;
+  font-size: 120%;
   color: #f2f2f2;
   bottom: 8px;
   width: 100%;
