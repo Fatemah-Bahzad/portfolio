@@ -326,7 +326,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 185px;
+  max-height: 210px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -365,7 +365,24 @@ main {
   width: max-content;
   padding: 3px 10px;
   border-radius: 8px;
+  margin-bottom: 10px;
+  
 }
+
+.info-content .download {
+ 
+  color: var(--white-1);
+  
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  /* width: max-content; */
+  padding: 3px 10px;
+  border-radius: 8px;
+  margin-top: 5px;
+  text-align: center;
+  
+}
+
 
 .avatar-box.info_more-btn {
   position: absolute;
@@ -1244,7 +1261,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    max-height: 300px;
+    max-height: 330px;
     margin-bottom: 30px;
   }
 
