@@ -371,9 +371,9 @@ main {
 
 .info-content .download {
  
-  color: var(--white-1);
+  color:var(--orange-yellow-crayola);
+
   
-  font-size: var(--fs-8);
   font-weight: var(--fw-300);
   /* width: max-content; */
   padding: 3px 10px;
