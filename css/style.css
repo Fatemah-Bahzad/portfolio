@@ -371,15 +371,16 @@ main {
 
 .info-content .download {
  
-  color:var(--orange-yellow-crayola);
-
+  color: var(--orange-yellow-crayola);
   
-  font-weight: var(--fw-300);
+  /* font-size: ; */
+  /* font-weight: var(--fw-300); */
   /* width: max-content; */
   padding: 3px 10px;
   border-radius: 8px;
   margin-top: 5px;
   text-align: center;
+  
   
 }
 
